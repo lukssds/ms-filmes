@@ -1,4 +1,4 @@
-package com.iftm.moviecatalogservice;
+package com.iftm.ratingsdataservice;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MovieCatalogServiceApplicationTests {
+public class RatingsDataServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
+
 }
 

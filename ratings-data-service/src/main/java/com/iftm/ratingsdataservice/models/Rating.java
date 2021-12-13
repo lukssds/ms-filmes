@@ -1,17 +1,17 @@
-package com.iftm.moviecatalogservice.models;
+package com.iftm.ratingsdataservice.models;
 
 public class Rating {
 
     private String movieId;
-    private int rating;
+	private int rating;
 
-    public Rating(String movieId, int rating) {
+	public Rating(String movieId, int rating) {
         this.movieId = movieId;
         this.rating = rating;
     }
 
-    public Rating() {}
-	public String getMovieId() {return movieId;}
+    public Rating() {super();}
+    public String getMovieId() {return movieId;}
     public void setMovieId(String movieId) {this.movieId = movieId;}
     public int getRating() {return rating;}
     public void setRating(int rating) {this.rating = rating;}
